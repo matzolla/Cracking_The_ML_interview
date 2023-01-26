@@ -8,3 +8,4 @@
 -  Uniform convergence in machine learning : A class of functions $\left(f_{n}\right)$
 is said to be uniformly convergence to $f$ for a data set $E$ if for all $\epsilon >0$, there exist $n$ such that for $n>N$, $\left|\left|f_{n}-f\right|\right|< \epsilon$.
 - Error bound of the `uniform convergence` : $\left|\left|f_{n}-f\right|\right| \leq \frac{f^{n+1}(x)\left(x-c\right)^{n}}{(n+1)!}$
+- The `Bias-variance trade-off`:
