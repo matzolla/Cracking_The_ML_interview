@@ -6,4 +6,4 @@
 -  What is emperical risk minimization: `The empirical risk minimization is a minimization problem which involve selecting a class of function that minimizes the average error over the training set`
 -  Formular for training error and Generalization error and differences: The `training` error is the expected value of the error over the training input, whereas the `generalization error` is over the test input.
 -  Uniform convergence in machine learning : A class of functions $\left(f_{n}\right)$
-is said to be uniformly convergence to $f$ for a data set `$E$` if for all $\epsilon >0$, there exist $n$ such that for $n>N$, $\left|\left|f_{n}-f\right|\right|< \epsilon$.
+is said to be uniformly convergence to $f$ for a data set $E$ if for all $\epsilon >0$, there exist $n$ such that for $n>N$, $\left|\left|f_{n}-f\right|\right|< \epsilon$.
