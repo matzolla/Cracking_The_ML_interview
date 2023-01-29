@@ -8,4 +8,4 @@
 -  Uniform convergence in machine learning : A class of functions $\left(f_{n}\right)$
 is said to be uniformly convergence to $f$ for a data set $E$ if for all $\epsilon >0$, there exist $n$ such that for $n>N$, $\left|\left|f_{n}-f\right|\right|< \epsilon$.
 - Error bound of the `uniform convergence` : $\left|\left|f_{n}-f\right|\right| \leq \frac{f^{n+1}(x)\left(x-c\right)^{n}}{(n+1)!}$
-- The `Bias-variance trade-off`:
+- The `Bias-variance trade-off`: The trade-off between minimizing both the bias and the variance of given model, knowing that a high variance will lead to `overfitting` and high `bias` will lead to `underfitting`. The variance and bias are closely related to the train error knowing that $MSE= bias^{2}+ variance+ \epsilon$, where $\epsilon$ is the irrudicible noise.
