@@ -18,5 +18,6 @@ is said to be uniformly convergence to $f$ for a data set $E$ if for all $\epsil
 - Why are model selection methods needed?: We want to identify and select  the best model from the hypothesis space that maximizes the performance of the learning algorithm (or minimizes the generalization error). This can usually be performed using feature selection techniques.
 - How do you trade-off bias and variance?: we can use a shrinking method that reduces the value of the weight of our learning algorithm, which will lead to a decrease in variance with a substantial increase in the bias. (like a kind of regularization technique).
 - What is cross-validation?: CV is machine learning technique that involve training a model on a sub portion of the train-data and evaluate in another subset with the objective of mitigating overfitting and improve generalization.
+- Describing different cross-validation techniques:
 
 
