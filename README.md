@@ -13,3 +13,5 @@ is said to be uniformly convergence to $f$ for a data set $E$ if for all $\epsil
 - What does the training set size depend on for a finite and infinite hypothesis set? Compare and contrast.? The training set size depends on a finite number of data points for a finite hypothesis set (base on the vc dimension hypothesis, from my intuition).
 - What is the VC dimension of an n-dimensional linear classifier? The VC dimension of an n-dimensional linear classifier is at least `n+1` 
 
+#### Model Selection
+
