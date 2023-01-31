@@ -10,5 +10,6 @@ is said to be uniformly convergence to $f$ for a data set $E$ if for all $\epsil
 - Error bound of the `uniform convergence` : $\left|\left|f_{n}-f\right|\right| \leq \frac{f^{n+1}(x)\left(x-c\right)^{n}}{(n+1)!}$
 - The `Bias-variance trade-off`: The trade-off between minimizing both the bias and the variance of given model, knowing that a high variance will lead to `overfitting` and high `bias` will lead to `underfitting`. The variance and bias are closely related to the train error knowing that $MSE= bias^{2}+ variance+ \epsilon$, where $\epsilon$ is the irrudicible noise.
 - What is the `VC` dimension:  It's an informal term for the measurement of a `model's capacity`
-- What does the training set size depend on for a finite and infinite hypothesis set? Compare and contrast.? The training set size depends on a finite number of data points for a finite hypothesis set (base on the vc dimension hypothesis, from my intuition)
-But I don't know for an infinite hypothesis set.
+- What does the training set size depend on for a finite and infinite hypothesis set? Compare and contrast.? The training set size depends on a finite number of data points for a finite hypothesis set (base on the vc dimension hypothesis, from my intuition).
+- What is the VC dimension of an n-dimensional linear classifier? The VC dimension of an n-dimensional linear classifier is at least `n+1` 
+
