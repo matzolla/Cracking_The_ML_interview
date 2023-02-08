@@ -20,5 +20,6 @@ is said to be uniformly convergence to $f$ for a data set $E$ if for all $\epsil
 - What is cross-validation?: CV is machine learning technique that involve training a model on a sub portion of the train-data and evaluate in another subset with the objective of mitigating overfitting and improve generalization.
 - Describing different cross-validation techniques: $\bullet$ `K-fold cross validation`: In `k-fold` cross validation, the data set is randomly split into k-fold where by one fold is used for evalution and the remaining `k-1` folds are used for training the model,the error $E_{k}$ is stored and the process is repeated for the remaining folds. At the end we average the error over the `k`-folds. We also have `LOOCV` similar to k-fold just that the fold here is `1point` the training is done on the other `n-1` points.
 - Why is feature selection required?: reduces overfitting, improve accuracy performance also reduces the training time (basically feature selection is a machine learning technique that involve removing unecessary features from the feature space that could literally reduce the performance of our ML model).
+- Describe some feature selection method: 
 
 
