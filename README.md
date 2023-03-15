@@ -26,3 +26,5 @@ is said to be uniformly convergence to $f$ for a data set $E$ if for all $\epsil
 #### Representation learning (Rlr)
 
 - What is representation learning? Why is it useful? Representation learning is concerned with machine learning algorithm that learn useful representations from the data. It help extract useful latent features in a subspace that can further be used by classifiers to perform classification.
+- What is the relation between Representation Learning and Deep Learning? deep learning can be consider as Rlr because the dl models encode useful information which are projected  into a subspace for further use (transfer learning).
+
