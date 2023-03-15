@@ -23,4 +23,5 @@ is said to be uniformly convergence to $f$ for a data set $E$ if for all $\epsil
 - Describe some feature selection method: `Filter method` each feature is assing a scoring value based on a statistical analysis (pmi, correlation, etc),then are finally ranked. The features are then either added or removed from the feature space while measuring the performance of the ml model. `Wrapper method` a subset of features is selected from the feature space, using a search algorithm  and each subset obtained is compared with others based on model performance (`forward` and `backward` recursive elimination). `Embeded method` learn which features best fits a model while building the model (regularization techniques: `Lasso`, `Ridge` and `ElasticNet` regression).
 - Recursive forward feature selection and backward feature selection: in `RFF` selection method, we start with no features and we incrementally add features to the model that improves model performance (conversely to the `RBF` selection method which can only be used if number of data point `N>p` where `p` is the number of features).
 
+#### Representation learning
 
