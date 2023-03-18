@@ -31,3 +31,6 @@ is said to be uniformly convergence to $f$ for a data set $E$ if for all $\epsil
 - What is Greedy layer wise unsupervised pretraining ?: An approach whereby  each layer is pretrained  using an unsupervised machine learning taking the ouptut of given layer  into a  smaller and simpler representation. Greedy because we optimize each piece of a solution one a layer at a time.Layer wise because the pretraining is done on a single layer at a time , unsupervised because we use an unsupervised machine learning technique.
 - Purpose of unsupervised pretraining?: It act as a `initial parametrization` for dnn therefore allowing the model to reach regions considered inaccessible at the first-step. [check here for more info](https://deep-learning-study-note.readthedocs.io/en/latest/Part%203%20(Deep%20Learning%20Research)/15%20Representation%20Learning/15.1%20Gready%20Layer%20Wise%20Unsupervised%20Pretraining.html)
 
+#### Support Vector Machine (SVM)
+
+- 
