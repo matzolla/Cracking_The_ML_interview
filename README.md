@@ -33,5 +33,4 @@ is said to be uniformly convergence to $f$ for a data set $E$ if for all $\epsil
 
 #### Support Vector Machine (SVM)
 
-- What is a p dimensional hyperplane? : A hyperplane is a p-1 dimensional flat affine subspace. For example a 2 dimensional hyperplane is a flat line (1-d affine subspace)
-- 
+- What is a p dimensional hyperplane? : A hyperplane is a p-1 dimensional flat affine subspace. For example a 2 dimensional hyperplane is a flat line (1-d affine subspace).
