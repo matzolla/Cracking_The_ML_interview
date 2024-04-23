@@ -1,4 +1,4 @@
-### My answers to cracking the machine learning interview
+### Some ML notes
 
 #### Learning Theory
 
