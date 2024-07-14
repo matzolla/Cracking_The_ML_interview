@@ -4,3 +4,4 @@
 4. The best way to solve this problem is to assume $P(x|w)$~ $N(\mu,\sigma)$ meaning the likelihood follows a normal distribution of mean ($\mu$) and standard deviation $\sigma$ which we have to determine.
 5. Intuitively each data point is drawn from a normal distribution (so $x_{k}$~ $N$($\mu,\sigma$)) and the idea is to find a joint Distribution for the data generating process.
 6.  Formular for Gaussian distribution : $\frac{1}{\sqrt{2\pi\sigma}}e^{-(x-\mu)^{2}}/2\sigma^{2}$ (so we want to estimate $\mu$ and $\sigma$)
+7.  To get joint distribution of the entire dataset $D$, we can simply multiply each Gaussian of the points $\prod\frac{1}{\sqrt{2\pi\sigma}}e^{-(x-\mu)^{2}}/2\sigma^{2}$
