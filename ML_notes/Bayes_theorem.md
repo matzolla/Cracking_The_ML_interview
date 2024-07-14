@@ -1,3 +1,3 @@
 1. In [this](https://www.youtube.com/watch?v=sguol03tfWo) video there's a smooth description of how the Bayes theorem can be simply used to describe the maximum likelihood estimation.
-2. The main idea in classification problems is that we want to determine the class to $C$ to which a given point belongs to ($P(w|x)$).
-3. As such we can use the Bayes theorem which states that: $P(w|x)= \fr{P(x|w)*P(w)}{P(x)}$
+2. The main idea in classification problems is that we want to determine the class to $C$ to which a given point belongs to ( $P(w|x)$ ).
+3. As such we can use the Bayes theorem which states that: $P(w|x)= \frc{P(x|w)*P(w)}{P(x)}$
