@@ -5,3 +5,4 @@
 5. Intuitively each data point is drawn from a normal distribution (so $x_{k}$~ $N$($\mu,\sigma$)) and the idea is to find a joint Distribution for the data generating process.
 6.  Formular for Gaussian distribution : $\frac{1}{\sqrt{2\pi\sigma}}e^{-(x-\mu)^{2}}/2\sigma^{2}$ (so we want to estimate $\mu$ and $\sigma$)
 7.  To get joint distribution of the entire dataset $D$, we can simply multiply each Gaussian of the points $\prod\frac{1}{\sqrt{2\pi\sigma}}e^{-(x-\mu)^{2}}/2\sigma^{2}$
+8.  Now we aim to find the argmax of P(w|D) (finding the optimal $\mu$ and $\sigma$. But the argmax can only apply if the function is `concave`, which is not the case with a Gaussian. As such we use the `log` to transform it to a concave fonction. Meaning that we instead determine argmax on the log of the Gaussian function.
